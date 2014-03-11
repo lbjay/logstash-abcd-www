@@ -1,0 +1,40 @@
+2014-01-27 19:31:10 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} hits=1 status=0 QTime=0 
+2014-01-27 19:31:10 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} status=0 QTime=0 
+2014-01-27 19:31:11 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/select params={hl.requireFieldMatch=true&fl=bibcode,pubdate,keyword,author,property,abstract,bibstem,citation_count,pub,[citations],volume,database,aff,grants,year,id,title,identifier,issue,page,doi&sort=pubdate+desc&indent=true&start=860&q=pubdate:1949-11-00&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=150000&wt=json&rows=20} hits=842 status=0 QTime=3 
+2014-01-27 19:31:20 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} hits=1 status=0 QTime=1 
+2014-01-27 19:31:20 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} status=0 QTime=1 
+2014-01-27 19:31:25 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/select params={hl.requireFieldMatch=true&fl=bibcode,pubdate,keyword,author,property,abstract,bibstem,citation_count,pub,[citations],volume,database,aff,grants,year,id,title,identifier,issue,page,doi&sort=pubdate+desc&indent=true&start=40&q=pubdate:1949-12-00&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=150000&wt=json&rows=20} hits=1116 status=0 QTime=99 
+2014-01-27 19:31:30 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} hits=1 status=0 QTime=1 
+2014-01-27 19:31:30 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} status=0 QTime=1 
+2014-01-27 19:31:40 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} hits=1 status=0 QTime=0 
+2014-01-27 19:31:40 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} status=0 QTime=0 
+2014-01-27 19:31:40 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/select params={hl.requireFieldMatch=true&fl=bibcode,pubdate,keyword,author,property,abstract,bibstem,citation_count,pub,[citations],volume,database,aff,grants,year,id,title,identifier,issue,page,doi&sort=pubdate+desc&indent=true&start=80&q=pubdate:1949-12-00&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=150000&wt=json&rows=20} hits=1116 status=0 QTime=32 
+2014-01-27 19:31:48 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/select params={hl.requireFieldMatch=true&fl=bibcode,pubdate,keyword,author,property,abstract,bibstem,citation_count,pub,[citations],volume,database,aff,grants,year,id,title,identifier,issue,page,doi&sort=pubdate+desc&indent=true&start=100&q=pubdate:1949-12-00&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=150000&wt=json&rows=20} hits=1116 status=0 QTime=41 
+2014-01-27 19:31:50 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} hits=1 status=0 QTime=0 
+2014-01-27 19:31:50 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} status=0 QTime=0 
+2014-01-27 19:32:00 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} hits=1 status=0 QTime=0 
+2014-01-27 19:32:00 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} status=0 QTime=1 
+2014-01-27 19:32:10 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} hits=1 status=0 QTime=0 
+2014-01-27 19:32:10 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/admin/ping params={wt=json} status=0 QTime=1 
+2014-01-27 19:32:10 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/select params={hl.requireFieldMatch=true&fl=bibcode,pubdate,keyword,author,property,abstract,bibstem,citation_count,pub,[citations],volume,database,aff,grants,year,id,title,identifier,issue,page,doi&sort=pubdate+desc&indent=true&start=160&q=pubdate:1949-12-00&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=150000&wt=json&rows=20} hits=1116 status=0 QTime=49 
+2014-01-27 19:32:17 INFO org.apache.solr.core.SolrCore execute
+ [collection1] webapp=/solr path=/select params={hl.requireFieldMatch=true&fl=bibcode,pubdate,keyword,author,property,abstract,bibstem,citation_count,pub,[citations],volume,database,aff,grants,year,id,title,identifier,issue,page,doi&sort=pubdate+desc&indent=true&start=180&q=pubdate:1949-12-00&hl.usePhraseHighlighter=true&hl.maxAnalyzedChars=150000&wt=json&rows=20} hits=1116 status=0 QTime=32 

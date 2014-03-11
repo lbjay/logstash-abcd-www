@@ -1,0 +1,3 @@
+SOLRDATE %{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{HOUR}:%{MINUTE}:%{SECOND}
+SOLRLOG %{SOLRDATE:timestamp} %{LOGLEVEL:loglevel} %{NOTSPACE:class} %{WORD:method} (?:\[%{WORD:core}\] )%{GREEDYDATA:data}
+SOLREXCEPTION %{SOLRDATE:timestamp} %{LOGLEVEL:loglevel} %{NOTSPACE:class} %{WORD:method} %{GREEDYDATA:stacktrace}
