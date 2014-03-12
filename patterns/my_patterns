@@ -1,3 +1,5 @@
 SOLRDATE %{YEAR}-%{MONTHNUM}-%{MONTHDAY} %{HOUR}:%{MINUTE}:%{SECOND}
-SOLRLOG %{SOLRDATE:timestamp} %{LOGLEVEL:loglevel} %{NOTSPACE:class} %{WORD:method} (?:\[%{WORD:core}\] )%{GREEDYDATA:data}
+SOLRLOG %{SOLRDATE:timestamp} %{LOGLEVEL:loglevel} %{NOTSPACE:class} %{WORD:method}\s+(?:\[%{WORD:core}\] )%{GREEDYDATA:data}
 SOLREXCEPTION %{SOLRDATE:timestamp} %{LOGLEVEL:loglevel} %{NOTSPACE:class} %{WORD:method} %{GREEDYDATA:stacktrace}
+
+GOOGLEBOT \.googlebot\.com$
